@@ -3,6 +3,7 @@ title: Programming Tutorials
 description: this is a place where I've compiled my work to build on-boarding tutorials
 baseurl: "/tutorials" # the subpath of your site, e.g. /blog
 url: "https://alexbgurvi.ch" # the base hostname & protocol for your site e.g. http://alexbgurvi.ch
+destination: docs
 
 # User settings
 username: Lorem Ipsum

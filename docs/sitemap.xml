@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
+        <url>
+            <loc>http://localhost:4000/tutorials/about/index.html</loc>
+        </url>
+    
+        <url>
+            <loc>http://localhost:4000/tutorials/category/css/</loc>
+        </url>
+    
+        <url>
+            <loc>http://localhost:4000/tutorials/category/dev/</loc>
+        </url>
+    
+        <url>
+            <loc>http://localhost:4000/tutorials/feed.xml</loc>
+        </url>
+    
+        <url>
+            <loc>http://localhost:4000/tutorials/category/html/</loc>
+        </url>
+    
+        <url>
+            <loc>http://localhost:4000/tutorials/</loc>
+        </url>
+    
+        <url>
+            <loc>http://localhost:4000/tutorials/category/jekyll/</loc>
+        </url>
+    
+        <url>
+            <loc>http://localhost:4000/tutorials/category/js/</loc>
+        </url>
+    
+        <url>
+            <loc>http://localhost:4000/tutorials/category/misc/</loc>
+        </url>
+    
+        <url>
+            <loc>http://localhost:4000/tutorials/search.json</loc>
+        </url>
+    
+        <url>
+            <loc>http://localhost:4000/tutorials/series/index.html</loc>
+        </url>
+    
+        <url>
+            <loc>http://localhost:4000/tutorials/sitemap.xml</loc>
+        </url>
+    
+        <url>
+            <loc>http://localhost:4000/tutorials/category/svg/</loc>
+        </url>
+    
+        <url>
+            <loc>http://localhost:4000/tutorials/tags/index.html</loc>
+        </url>
+    
+        <url>
+            <loc>http://localhost:4000/tutorials/assets/css/style.css</loc>
+        </url>
+    
+    
+        <url>
+            <loc>http://localhost:4000/tutorials/how-to-use/</loc>
+        </url>
+  
+        <url>
+            <loc>http://localhost:4000/tutorials/welcome-to-jekyll/</loc>
+        </url>
+  
+        <url>
+            <loc>http://localhost:4000/tutorials/analisando-seu-codigo-js-com-linter/</loc>
+        </url>
+  
+        <url>
+            <loc>http://localhost:4000/tutorials/social-meta-tags/</loc>
+        </url>
+  
+        <url>
+            <loc>http://localhost:4000/tutorials/por-que-usar-svg/</loc>
+        </url>
+  
+        <url>
+            <loc>http://localhost:4000/tutorials/dica-rapida-1/</loc>
+        </url>
+  
+</urlset>
