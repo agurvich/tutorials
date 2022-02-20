@@ -535,12 +535,12 @@ html,body{
 	text-decoration: none;
 }
 .bar-header .logo a:after{
-	content: '</> AD';
+	/* content: '</> AG'; */
 	transition: all .4s;
 }
 @media only screen and (min-width:37.5rem){
 	.bar-header .logo a:after{
-		content: '</> Anon Developer';
+		/* content: '</> Alex Gurvich'; */
 	}
 }
 .header-post{
