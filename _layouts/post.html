@@ -7,6 +7,11 @@
         <section class="post">
 
             <article role="article" id="post" class="post-content" itemprop="articleBody">
+                reading time is: {{ content | reading_time }}
+                cats:
+                {% for category in page.categories %}
+                    cat: {{ category }}
+                {% endfor %}
                 {{ content }}
             </article>
 

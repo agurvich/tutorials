@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<!DOCTYPE html>
+<main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+    <body>
+        <section>
+    <div id="grid" class="row flex-grid">
+        {% for sub_page in page.linked_docs %}
+            <article class="box-item post-{{page.this_category}}" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+            <span class="ribbon">
+                <a href="{{site.url}}{{site.baseurl}}/categories/{{page.this_category}}"><span>{{ page.this_category}}</span></a>
+            </span>
+            <div class="box-body">
+                <meta itemprop="datePublished" content="{{sub_page.date | date_to_xmlschema }}">
+                <time itemprop="datePublished" datetime="{{ sub_page.date }}" class="date">{{ sub_page.date | date_to_string }}</time>
+                <a class="sub_page-link" href="{{ sub_page.url | prepend: site.baseurl }}">
+                    <h2 class="sub_page-title" itemprop="name">
+                        {{ sub_page.title }}
+                    </h2>
+                </a>
+                <a class="sub_page-link" href="{{ sub_page.url | prepend: site.baseurl }}">
+                    <p class="description">{{ sub_page.introduction }}</p>
+                </a>
+                {% if sub_page.showtags == true %}
+                <div class="tags">
+                    {% for tag in sub_page.tags %}
+                        <a href="{{site.baseurl}}/tags/#{{tag | slugify }}">{{ tag }}</a>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </div>
+        </article>
+        {% endfor %} 
+        </div>
+    </body>
+</main>

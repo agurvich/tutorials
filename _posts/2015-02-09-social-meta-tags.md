@@ -5,12 +5,13 @@ date: 2015-02-09 19:33:48
 image: '/assets/img/dica-rapida-2/main.png'
 description: 'Aprenda como ser mais social, ter maior relevância nas redes sociais e atrair mais usuários.'
 main-class: 'html'
+categories:
+- html
 color: '#EB7728'
 tags:
 - social
 - seo
 - tutorial
-categories:
 twitter_text: 'Aprenda a usar as meta tags sociais.'
 introduction: "Aprenda como ser mais social, ter maior relevância nas redes sociais e atrair mais usuários. Para isso, basta criar as meta tags corretas."
 ---

@@ -9,6 +9,7 @@ layout: compress
         {% include svg-icons.html %}
         {% include header-default.html %}
             <section class="content">
+                {{ content | reading_time }}
                 {{ content }}
             </section>
         {% include footer.html %}

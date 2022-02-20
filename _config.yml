@@ -5,6 +5,8 @@ baseurl: "/tutorials" # the subpath of your site, e.g. /blog
 url: "https://alexbgurvi.ch" # the base hostname & protocol for your site e.g. http://alexbgurvi.ch
 destination: docs
 
+safe: false
+
 # User settings
 username: happy
 user_description: Frick
@@ -44,3 +46,10 @@ links:
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
+
+defaults:
+  - scope:
+      type: categories  # select all category pages
+    values:
+      layout: category_page
+      permalink: categories/:category/

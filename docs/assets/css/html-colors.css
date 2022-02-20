@@ -1,0 +1,77 @@
+.post-html .title-category{
+	color: #eb7728;
+}
+.post-html .post-content h1,.post-html .post-content h2,.post-html .post-content h3,.post-html .post-content h4{
+	color: #eb7728;
+}
+.post-html .post-content a{
+	border-bottom: 2px dashed #eb7728;
+	color: #eb7728;
+}
+.post-html .post-content a:hover{
+	background-color: #eb7728;
+	color: #fff;
+}
+.post-html .post-content strong{
+	color: #eb7728;
+}
+.post-html .post-content p code,.post-html .post-content li code{
+	color: #eb7728;
+}
+.post-html .post-content blockquote{
+	border-left: .313rem solid #eb7728;
+}
+.post-html .header-post,.post-html .header-site{
+	background-color: #eb7728;
+}
+.post-html .header-post h1,.post-html .header-site h1{
+	text-shadow: 3px 3px #c95d13;
+}
+.post-html .bar-header .logo a{
+	color: #eb7728;
+}
+.post-html .author .email,.post-html .author .github{
+	color: #eb7728;
+}
+.post-html .share a:hover svg{
+	fill: #eb7728;
+}
+@media only screen and (max-width:37.5rem){
+	.post-html body.search-overlay:after{
+		background-color: #eb7728;
+	}
+}
+.post-html .icon-menu{
+	fill: #eb7728;
+}
+.post-html .box-body h2{
+	color: #eb7728;
+}
+.post-html .box-body .tags a{
+	border: 1px solid #eb7728;
+	color: #eb7728;
+}
+.post-html .box-body .tags a:hover{
+	background: #eb7728;
+	color: #fff;
+}
+.post-html aside{
+	background-color: #eb7728;
+}
+.post-html aside nav li a:hover{
+	color: #eb7728;
+}
+.post-html .ribbon span{
+	background-color: #eb7728;
+}
+.post-html .ribbon span:before{
+	border-left: 3px solid #b05110;
+	border-top: 3px solid #b05110;
+}
+.post-html .ribbon span:after{
+	border-right: 3px solid #b05110;
+	border-top: 3px solid #b05110;
+}
+.post-html footer{
+	background-color: #eb7728;
+}

@@ -1,0 +1,77 @@
+.post-css .title-category{
+	color: #2da0c3;
+}
+.post-css .post-content h1,.post-css .post-content h2,.post-css .post-content h3,.post-css .post-content h4{
+	color: #2da0c3;
+}
+.post-css .post-content a{
+	border-bottom: 2px dashed #2da0c3;
+	color: #2da0c3;
+}
+.post-css .post-content a:hover{
+	background-color: #2da0c3;
+	color: #fff;
+}
+.post-css .post-content strong{
+	color: #2da0c3;
+}
+.post-css .post-content p code,.post-css .post-content li code{
+	color: #2da0c3;
+}
+.post-css .post-content blockquote{
+	border-left: .313rem solid #2da0c3;
+}
+.post-css .header-post,.post-css .header-site{
+	background-color: #2da0c3;
+}
+.post-css .header-post h1,.post-css .header-site h1{
+	text-shadow: 3px 3px #24809c;
+}
+.post-css .bar-header .logo a{
+	color: #2da0c3;
+}
+.post-css .author .email,.post-css .author .github{
+	color: #2da0c3;
+}
+.post-css .share a:hover svg{
+	fill: #2da0c3;
+}
+@media only screen and (max-width:37.5rem){
+	.post-css body.search-overlay:after{
+		background-color: #2da0c3;
+	}
+}
+.post-css .icon-menu{
+	fill: #2da0c3;
+}
+.post-css .box-body h2{
+	color: #2da0c3;
+}
+.post-css .box-body .tags a{
+	border: 1px solid #2da0c3;
+	color: #2da0c3;
+}
+.post-css .box-body .tags a:hover{
+	background: #2da0c3;
+	color: #fff;
+}
+.post-css aside{
+	background-color: #2da0c3;
+}
+.post-css aside nav li a:hover{
+	color: #2da0c3;
+}
+.post-css .ribbon span{
+	background-color: #2da0c3;
+}
+.post-css .ribbon span:before{
+	border-left: 3px solid #207088;
+	border-top: 3px solid #207088;
+}
+.post-css .ribbon span:after{
+	border-right: 3px solid #207088;
+	border-top: 3px solid #207088;
+}
+.post-css footer{
+	background-color: #2da0c3;
+}

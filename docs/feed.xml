@@ -5,9 +5,9 @@
     <description>this is a place where I've compiled my work to build on-boarding tutorials</description>
     <link>http://localhost:4000/tutorials/</link>
     <atom:link href="http://localhost:4000/tutorials/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 20 Feb 2022 11:33:30 -0600</pubDate>
-    <lastBuildDate>Sun, 20 Feb 2022 11:33:30 -0600</lastBuildDate>
-    <generator>Jekyll v3.9.0</generator>
+    <pubDate>Sun, 20 Feb 2022 17:22:25 -0600</pubDate>
+    <lastBuildDate>Sun, 20 Feb 2022 17:22:25 -0600</lastBuildDate>
+    <generator>Jekyll v4.2.1</generator>
     
       <item>
         <title>How to Use</title>
@@ -21,6 +21,12 @@
         <category>jekyll</category>
         
         
+        <category>misc</category>
+        
+        <category>html</category>
+        
+        <category>jekyll</category>
+        
       </item>
     
       <item>
@@ -32,6 +38,12 @@
         
         <category>jekyll</category>
         
+        
+        <category>jekyll</category>
+        
+        <category>misc</category>
+        
+        <category>html</category>
         
       </item>
     
@@ -49,6 +61,12 @@
         <category>tutorial</category>
         
         
+        <category>js</category>
+        
+        <category>html</category>
+        
+        <category>jekyll</category>
+        
       </item>
     
       <item>
@@ -64,6 +82,8 @@
         
         <category>tutorial</category>
         
+        
+        <category>html</category>
         
       </item>
     
@@ -83,7 +103,13 @@
         <category>dicarapida</category>
         
         
-        <category>O mundo mágico do SVG</category>
+        <category>svg</category>
+        
+        <category>dev</category>
+        
+        <category>html</category>
+        
+        <category>jekyll</category>
         
       </item>
     
@@ -96,6 +122,8 @@
         
         <category>dicarapida</category>
         
+        
+        <category>dev</category>
         
       </item>
     

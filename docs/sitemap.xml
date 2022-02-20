@@ -6,35 +6,11 @@
         </url>
     
         <url>
-            <loc>http://localhost:4000/tutorials/category/css/</loc>
-        </url>
-    
-        <url>
-            <loc>http://localhost:4000/tutorials/category/dev/</loc>
-        </url>
-    
-        <url>
             <loc>http://localhost:4000/tutorials/feed.xml</loc>
         </url>
     
         <url>
-            <loc>http://localhost:4000/tutorials/category/html/</loc>
-        </url>
-    
-        <url>
             <loc>http://localhost:4000/tutorials/</loc>
-        </url>
-    
-        <url>
-            <loc>http://localhost:4000/tutorials/category/jekyll/</loc>
-        </url>
-    
-        <url>
-            <loc>http://localhost:4000/tutorials/category/js/</loc>
-        </url>
-    
-        <url>
-            <loc>http://localhost:4000/tutorials/category/misc/</loc>
         </url>
     
         <url>
@@ -50,15 +26,31 @@
         </url>
     
         <url>
-            <loc>http://localhost:4000/tutorials/category/svg/</loc>
-        </url>
-    
-        <url>
             <loc>http://localhost:4000/tutorials/tags/index.html</loc>
         </url>
     
         <url>
-            <loc>http://localhost:4000/tutorials/assets/css/style.css</loc>
+            <loc>http://localhost:4000/tutorials/categories/dev/</loc>
+        </url>
+    
+        <url>
+            <loc>http://localhost:4000/tutorials/categories/svg/</loc>
+        </url>
+    
+        <url>
+            <loc>http://localhost:4000/tutorials/categories/html/</loc>
+        </url>
+    
+        <url>
+            <loc>http://localhost:4000/tutorials/categories/jekyll/</loc>
+        </url>
+    
+        <url>
+            <loc>http://localhost:4000/tutorials/categories/js/</loc>
+        </url>
+    
+        <url>
+            <loc>http://localhost:4000/tutorials/categories/misc/</loc>
         </url>
     
     
