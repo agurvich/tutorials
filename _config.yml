@@ -6,13 +6,13 @@ url: "https://alexbgurvi.ch" # the base hostname & protocol for your site e.g. h
 destination: docs
 
 # User settings
-username: Lorem Ipsum
-user_description: Anon Developer at Lorem Ipsum Dolor
+username: happy
+user_description: Frick
 email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
-disqus_username: lorem_ipsum
+#twitter_username: lorem_ipsum
+#github_username:  lorem_ipsum
+#gplus_username:  lorem_ipsum
+#disqus_username: lorem_ipsum
 
 # Build settings
 markdown: kramdown
