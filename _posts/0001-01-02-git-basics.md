@@ -9,6 +9,7 @@ categories:
 - terminal
 color: '#B31917'
 tags:
+- git
 - terminal
 twitter_text: 'Put your twitter description here.'
 introduction: 'Put your description here.'

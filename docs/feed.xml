@@ -5,8 +5,8 @@
     <description>this is a place where I've compiled my work to build on-boarding tutorials</description>
     <link>https://alexbgurvi.ch/tutorials/</link>
     <atom:link href="https://alexbgurvi.ch/tutorials/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 20 Feb 2022 21:22:05 -0600</pubDate>
-    <lastBuildDate>Sun, 20 Feb 2022 21:22:05 -0600</lastBuildDate>
+    <pubDate>Sun, 20 Feb 2022 22:29:42 -0600</pubDate>
+    <lastBuildDate>Sun, 20 Feb 2022 22:29:42 -0600</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
@@ -288,6 +288,8 @@
         
         <category>building software</category>
         
+        <category>python</category>
+        
         
         <category>terminal</category>
         
@@ -360,6 +362,8 @@
         <pubDate>Mon, 01 Jan 0001 18:00:01 -0600</pubDate>
         <link>https://alexbgurvi.ch/tutorials/git-basics/</link>
         <guid isPermaLink="true">https://alexbgurvi.ch/tutorials/git-basics/</guid>
+        
+        <category>git</category>
         
         <category>terminal</category>
         

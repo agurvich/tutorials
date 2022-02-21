@@ -106,7 +106,7 @@
   
     {
       "title"    : "(Ana)conda: Python&#39;s best friend",
-      "tags"     : "terminal and building software",
+      "tags"     : "terminal, building software, and python",
       "categories"     : "terminal",
       "url"      : "/tutorials/conda/",
       "date"     : "02 Jan 0001"
@@ -138,7 +138,7 @@
   
     {
       "title"    : "Version control with git",
-      "tags"     : "terminal",
+      "tags"     : "git and terminal",
       "categories"     : "terminal",
       "url"      : "/tutorials/git-basics/",
       "date"     : "01 Jan 0001"
