@@ -3,10 +3,10 @@
   <channel>
     <title>Roadmap to Research</title>
     <description>this is a place where I've compiled my work to build on-boarding tutorials</description>
-    <link>http://localhost:4000/tutorials/</link>
-    <atom:link href="http://localhost:4000/tutorials/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 20 Feb 2022 21:20:25 -0600</pubDate>
-    <lastBuildDate>Sun, 20 Feb 2022 21:20:25 -0600</lastBuildDate>
+    <link>https://alexbgurvi.ch/tutorials/</link>
+    <atom:link href="https://alexbgurvi.ch/tutorials/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 20 Feb 2022 21:22:05 -0600</pubDate>
+    <lastBuildDate>Sun, 20 Feb 2022 21:22:05 -0600</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
@@ -16,8 +16,8 @@
 
 </description>
         <pubDate>Sat, 06 Jan 0001 18:00:01 -0600</pubDate>
-        <link>http://localhost:4000/tutorials/sympy/</link>
-        <guid isPermaLink="true">http://localhost:4000/tutorials/sympy/</guid>
+        <link>https://alexbgurvi.ch/tutorials/sympy/</link>
+        <guid isPermaLink="true">https://alexbgurvi.ch/tutorials/sympy/</guid>
         
         <category>python</category>
         
@@ -37,8 +37,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 06 Jan 0001 18:00:01 -0600</pubDate>
-        <link>http://localhost:4000/tutorials/jupyter-cluster/</link>
-        <guid isPermaLink="true">http://localhost:4000/tutorials/jupyter-cluster/</guid>
+        <link>https://alexbgurvi.ch/tutorials/jupyter-cluster/</link>
+        <guid isPermaLink="true">https://alexbgurvi.ch/tutorials/jupyter-cluster/</guid>
         
         <category>terminal</category>
         
@@ -58,8 +58,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Fri, 05 Jan 0001 18:00:01 -0600</pubDate>
-        <link>http://localhost:4000/tutorials/matrices-advanced/</link>
-        <guid isPermaLink="true">http://localhost:4000/tutorials/matrices-advanced/</guid>
+        <link>https://alexbgurvi.ch/tutorials/matrices-advanced/</link>
+        <guid isPermaLink="true">https://alexbgurvi.ch/tutorials/matrices-advanced/</guid>
         
         <category>math</category>
         
@@ -85,8 +85,8 @@
 
 </description>
         <pubDate>Thu, 04 Jan 0001 18:00:01 -0600</pubDate>
-        <link>http://localhost:4000/tutorials/jupyter/</link>
-        <guid isPermaLink="true">http://localhost:4000/tutorials/jupyter/</guid>
+        <link>https://alexbgurvi.ch/tutorials/jupyter/</link>
+        <guid isPermaLink="true">https://alexbgurvi.ch/tutorials/jupyter/</guid>
         
         <category>terminal</category>
         
@@ -107,8 +107,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Thu, 04 Jan 0001 18:00:01 -0600</pubDate>
-        <link>http://localhost:4000/tutorials/fitting-a-line/</link>
-        <guid isPermaLink="true">http://localhost:4000/tutorials/fitting-a-line/</guid>
+        <link>https://alexbgurvi.ch/tutorials/fitting-a-line/</link>
+        <guid isPermaLink="true">https://alexbgurvi.ch/tutorials/fitting-a-line/</guid>
         
         <category>math</category>
         
@@ -124,8 +124,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Thu, 04 Jan 0001 18:00:01 -0600</pubDate>
-        <link>http://localhost:4000/tutorials/finite-difference/</link>
-        <guid isPermaLink="true">http://localhost:4000/tutorials/finite-difference/</guid>
+        <link>https://alexbgurvi.ch/tutorials/finite-difference/</link>
+        <guid isPermaLink="true">https://alexbgurvi.ch/tutorials/finite-difference/</guid>
         
         <category>math</category>
         
@@ -150,8 +150,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Thu, 04 Jan 0001 18:00:01 -0600</pubDate>
-        <link>http://localhost:4000/tutorials/calculus-basics/</link>
-        <guid isPermaLink="true">http://localhost:4000/tutorials/calculus-basics/</guid>
+        <link>https://alexbgurvi.ch/tutorials/calculus-basics/</link>
+        <guid isPermaLink="true">https://alexbgurvi.ch/tutorials/calculus-basics/</guid>
         
         <category>math</category>
         
@@ -165,8 +165,8 @@
         <description>&lt;p&gt;should have your email address at the very least, needs to show up when they google your name + astronomy&lt;/p&gt;
 </description>
         <pubDate>Wed, 03 Jan 0001 18:00:01 -0600</pubDate>
-        <link>http://localhost:4000/tutorials/personal-website/</link>
-        <guid isPermaLink="true">http://localhost:4000/tutorials/personal-website/</guid>
+        <link>https://alexbgurvi.ch/tutorials/personal-website/</link>
+        <guid isPermaLink="true">https://alexbgurvi.ch/tutorials/personal-website/</guid>
         
         <category>research</category>
         
@@ -189,8 +189,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Wed, 03 Jan 0001 18:00:01 -0600</pubDate>
-        <link>http://localhost:4000/tutorials/matrices-basics/</link>
-        <guid isPermaLink="true">http://localhost:4000/tutorials/matrices-basics/</guid>
+        <link>https://alexbgurvi.ch/tutorials/matrices-basics/</link>
+        <guid isPermaLink="true">https://alexbgurvi.ch/tutorials/matrices-basics/</guid>
         
         <category>math</category>
         
@@ -206,8 +206,8 @@
 
 </description>
         <pubDate>Wed, 03 Jan 0001 18:00:01 -0600</pubDate>
-        <link>http://localhost:4000/tutorials/matplotlib/</link>
-        <guid isPermaLink="true">http://localhost:4000/tutorials/matplotlib/</guid>
+        <link>https://alexbgurvi.ch/tutorials/matplotlib/</link>
+        <guid isPermaLink="true">https://alexbgurvi.ch/tutorials/matplotlib/</guid>
         
         <category>python</category>
         
@@ -225,8 +225,8 @@
 
 </description>
         <pubDate>Tue, 02 Jan 0001 18:00:02 -0600</pubDate>
-        <link>http://localhost:4000/tutorials/numpy-basics/</link>
-        <guid isPermaLink="true">http://localhost:4000/tutorials/numpy-basics/</guid>
+        <link>https://alexbgurvi.ch/tutorials/numpy-basics/</link>
+        <guid isPermaLink="true">https://alexbgurvi.ch/tutorials/numpy-basics/</guid>
         
         <category>python</category>
         
@@ -242,8 +242,8 @@
         <description>&lt;p&gt;can host a project website for your repo&lt;/p&gt;
 </description>
         <pubDate>Tue, 02 Jan 0001 18:00:01 -0600</pubDate>
-        <link>http://localhost:4000/tutorials/website/</link>
-        <guid isPermaLink="true">http://localhost:4000/tutorials/website/</guid>
+        <link>https://alexbgurvi.ch/tutorials/website/</link>
+        <guid isPermaLink="true">https://alexbgurvi.ch/tutorials/website/</guid>
         
         <category>web</category>
         
@@ -264,8 +264,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Tue, 02 Jan 0001 18:00:01 -0600</pubDate>
-        <link>http://localhost:4000/tutorials/making-cv/</link>
-        <guid isPermaLink="true">http://localhost:4000/tutorials/making-cv/</guid>
+        <link>https://alexbgurvi.ch/tutorials/making-cv/</link>
+        <guid isPermaLink="true">https://alexbgurvi.ch/tutorials/making-cv/</guid>
         
         <category>research</category>
         
@@ -281,8 +281,8 @@
 
 </description>
         <pubDate>Tue, 02 Jan 0001 18:00:01 -0600</pubDate>
-        <link>http://localhost:4000/tutorials/conda/</link>
-        <guid isPermaLink="true">http://localhost:4000/tutorials/conda/</guid>
+        <link>https://alexbgurvi.ch/tutorials/conda/</link>
+        <guid isPermaLink="true">https://alexbgurvi.ch/tutorials/conda/</guid>
         
         <category>terminal</category>
         
@@ -300,8 +300,8 @@
 
 </description>
         <pubDate>Mon, 01 Jan 0001 18:00:01 -0600</pubDate>
-        <link>http://localhost:4000/tutorials/using-python/</link>
-        <guid isPermaLink="true">http://localhost:4000/tutorials/using-python/</guid>
+        <link>https://alexbgurvi.ch/tutorials/using-python/</link>
+        <guid isPermaLink="true">https://alexbgurvi.ch/tutorials/using-python/</guid>
         
         <category>python</category>
         
@@ -318,8 +318,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 01 Jan 0001 18:00:01 -0600</pubDate>
-        <link>http://localhost:4000/tutorials/latex-basics/</link>
-        <guid isPermaLink="true">http://localhost:4000/tutorials/latex-basics/</guid>
+        <link>https://alexbgurvi.ch/tutorials/latex-basics/</link>
+        <guid isPermaLink="true">https://alexbgurvi.ch/tutorials/latex-basics/</guid>
         
         <category>research</category>
         
@@ -333,8 +333,8 @@
         <description>&lt;p&gt;myspace taught us css&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Jan 0001 18:00:01 -0600</pubDate>
-        <link>http://localhost:4000/tutorials/html-css/</link>
-        <guid isPermaLink="true">http://localhost:4000/tutorials/html-css/</guid>
+        <link>https://alexbgurvi.ch/tutorials/html-css/</link>
+        <guid isPermaLink="true">https://alexbgurvi.ch/tutorials/html-css/</guid>
         
         <category>web</category>
         
@@ -358,8 +358,8 @@
 
 </description>
         <pubDate>Mon, 01 Jan 0001 18:00:01 -0600</pubDate>
-        <link>http://localhost:4000/tutorials/git-basics/</link>
-        <guid isPermaLink="true">http://localhost:4000/tutorials/git-basics/</guid>
+        <link>https://alexbgurvi.ch/tutorials/git-basics/</link>
+        <guid isPermaLink="true">https://alexbgurvi.ch/tutorials/git-basics/</guid>
         
         <category>terminal</category>
         
@@ -375,8 +375,8 @@
 
 </description>
         <pubDate>Sun, 31 Dec 0000 18:00:01 -0600</pubDate>
-        <link>http://localhost:4000/tutorials/using-homebrew/</link>
-        <guid isPermaLink="true">http://localhost:4000/tutorials/using-homebrew/</guid>
+        <link>https://alexbgurvi.ch/tutorials/using-homebrew/</link>
+        <guid isPermaLink="true">https://alexbgurvi.ch/tutorials/using-homebrew/</guid>
         
         <category>terminal</category>
         
@@ -397,8 +397,8 @@
 
 </description>
         <pubDate>Sun, 31 Dec 0000 18:00:01 -0600</pubDate>
-        <link>http://localhost:4000/tutorials/using-bash/</link>
-        <guid isPermaLink="true">http://localhost:4000/tutorials/using-bash/</guid>
+        <link>https://alexbgurvi.ch/tutorials/using-bash/</link>
+        <guid isPermaLink="true">https://alexbgurvi.ch/tutorials/using-bash/</guid>
         
         <category>terminal</category>
         
