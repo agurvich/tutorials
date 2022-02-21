@@ -1,0 +1,77 @@
+.post-methods .title-category{
+	color: #637a91;
+}
+.post-methods .post-content h1,.post-methods .post-content h2,.post-methods .post-content h3,.post-methods .post-content h4{
+	color: #637a91;
+}
+.post-methods .post-content a{
+	border-bottom: 2px dashed #637a91;
+	color: #637a91;
+}
+.post-methods .post-content a:hover{
+	background-color: #637a91;
+	color: #fff;
+}
+.post-methods .post-content strong{
+	color: #637a91;
+}
+.post-methods .post-content p code,.post-methods .post-content li code{
+	color: #637a91;
+}
+.post-methods .post-content blockquote{
+	border-left: .313rem solid #637a91;
+}
+.post-methods .header-post,.post-methods .header-site{
+	background-color: #637a91;
+}
+.post-methods .header-post h1,.post-methods .header-site h1{
+	text-shadow: 3px 3px #4f6274;
+}
+.post-methods .bar-header .logo a{
+	color: #637a91;
+}
+.post-methods .author .email,.post-methods .author .github{
+	color: #637a91;
+}
+.post-methods .share a:hover svg{
+	fill: #637a91;
+}
+@media only screen and (max-width:37.5rem){
+	.post-methods body.search-overlay:after{
+		background-color: #637a91;
+	}
+}
+.post-methods .icon-menu{
+	fill: #637a91;
+}
+.post-methods .box-body h2{
+	color: #637a91;
+}
+.post-methods .box-body .tags a{
+	border: 1px solid #637a91;
+	color: #637a91;
+}
+.post-methods .box-body .tags a:hover{
+	background: #637a91;
+	color: #fff;
+}
+.post-methods aside{
+	background-color: #637a91;
+}
+.post-methods aside nav li a:hover{
+	color: #637a91;
+}
+.post-methods .ribbon span{
+	background-color: #637a91;
+}
+.post-methods .ribbon span:before{
+	border-left: 3px solid #455565;
+	border-top: 3px solid #455565;
+}
+.post-methods .ribbon span:after{
+	border-right: 3px solid #455565;
+	border-top: 3px solid #455565;
+}
+.post-methods footer{
+	background-color: #637a91;
+}

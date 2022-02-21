@@ -7,10 +7,17 @@
         <section class="post">
 
             <article role="article" id="post" class="post-content" itemprop="articleBody">
-                reading time is: {{ content | reading_time }}
-                cats:
+                Should take you: {{ content | reading_time }}
+                <br>
+                Categories:
                 {% for category in page.categories %}
-                    cat: {{ category }}
+                    {{ category }}
+                {% endfor %}
+                <br>
+                Pre-reqs:
+                {% for prereq in page.prereqs %}
+                {% capture this_url %}{% for post in site.posts %}{% if prereq == post.id %}{{post.url}}{% endif %}{% endfor %}{% endcapture %}
+                <a href="{{ this_url | prepend: site.baseurl | prepend: site.url }}"> {{ prereq }} </a>
                 {% endfor %}
                 {{ content }}
             </article>

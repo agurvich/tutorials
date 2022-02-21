@@ -9,7 +9,8 @@ layout: default
     cat: {{ my_category[0] }}
     {% endfor %}
     goodbye -->
-    {% for post in site.posts %}
+    {% assign sorted = site.posts | sort: 'date' %}
+    {% for post in sorted %}
         <article class="box-item post-{{post.main-class}}" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
             <span class="ribbon">
                 <a href="{{site.url}}{{site.baseurl}}/categories/{{post.main-class}}"><span>{{post.main-class}}</span></a>
@@ -23,7 +24,7 @@ layout: default
                     </h2>
                 </a>
                 <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                    <p class="description">{{ post.introduction }}</p>
+                    <p class="description">{{ post.description }}</p>
                 </a>
                 {% if true %}
                 <div class="tags">

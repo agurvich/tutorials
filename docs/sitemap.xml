@@ -2,80 +2,156 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
         <url>
-            <loc>https://alexbgurvi.ch/tutorials/about/index.html</loc>
+            <loc>http://localhost:4000/tutorials/template_posts/2015-01-07-dica-rapida-1/</loc>
         </url>
     
         <url>
-            <loc>https://alexbgurvi.ch/tutorials/feed.xml</loc>
+            <loc>http://localhost:4000/tutorials/template_posts/2015-01-08-por-que-usar-svg/</loc>
         </url>
     
         <url>
-            <loc>https://alexbgurvi.ch/tutorials/</loc>
+            <loc>http://localhost:4000/tutorials/template_posts/2015-02-09-social-meta-tags/</loc>
         </url>
     
         <url>
-            <loc>https://alexbgurvi.ch/tutorials/search.json</loc>
+            <loc>http://localhost:4000/tutorials/template_posts/2015-12-04-analisando-seu-codigo-js-com-linter/</loc>
         </url>
     
         <url>
-            <loc>https://alexbgurvi.ch/tutorials/series/index.html</loc>
+            <loc>http://localhost:4000/tutorials/template_posts/2016-05-08-how-to-use/</loc>
         </url>
     
         <url>
-            <loc>https://alexbgurvi.ch/tutorials/sitemap.xml</loc>
+            <loc>http://localhost:4000/tutorials/template_posts/2016-05-08-welcome-to-jekyll/</loc>
         </url>
     
         <url>
-            <loc>https://alexbgurvi.ch/tutorials/tags/index.html</loc>
+            <loc>http://localhost:4000/tutorials/about/index.html</loc>
         </url>
     
         <url>
-            <loc>https://alexbgurvi.ch/tutorials/categories/dev/</loc>
+            <loc>http://localhost:4000/tutorials/feed.xml</loc>
         </url>
     
         <url>
-            <loc>https://alexbgurvi.ch/tutorials/categories/svg/</loc>
+            <loc>http://localhost:4000/tutorials/</loc>
         </url>
     
         <url>
-            <loc>https://alexbgurvi.ch/tutorials/categories/html/</loc>
+            <loc>http://localhost:4000/tutorials/search.json</loc>
         </url>
     
         <url>
-            <loc>https://alexbgurvi.ch/tutorials/categories/jekyll/</loc>
+            <loc>http://localhost:4000/tutorials/series/index.html</loc>
         </url>
     
         <url>
-            <loc>https://alexbgurvi.ch/tutorials/categories/js/</loc>
+            <loc>http://localhost:4000/tutorials/sitemap.xml</loc>
         </url>
     
         <url>
-            <loc>https://alexbgurvi.ch/tutorials/categories/misc/</loc>
+            <loc>http://localhost:4000/tutorials/tags/index.html</loc>
+        </url>
+    
+        <url>
+            <loc>http://localhost:4000/tutorials/categories/terminal/</loc>
+        </url>
+    
+        <url>
+            <loc>http://localhost:4000/tutorials/categories/web/</loc>
+        </url>
+    
+        <url>
+            <loc>http://localhost:4000/tutorials/categories/research/</loc>
+        </url>
+    
+        <url>
+            <loc>http://localhost:4000/tutorials/categories/python/</loc>
+        </url>
+    
+        <url>
+            <loc>http://localhost:4000/tutorials/categories/methods/</loc>
         </url>
     
     
         <url>
-            <loc>https://alexbgurvi.ch/tutorials/how-to-use/</loc>
+            <loc>http://localhost:4000/tutorials/sympy/</loc>
         </url>
   
         <url>
-            <loc>https://alexbgurvi.ch/tutorials/welcome-to-jekyll/</loc>
+            <loc>http://localhost:4000/tutorials/jupyter-cluster/</loc>
         </url>
   
         <url>
-            <loc>https://alexbgurvi.ch/tutorials/analisando-seu-codigo-js-com-linter/</loc>
+            <loc>http://localhost:4000/tutorials/matrices-advanced/</loc>
         </url>
   
         <url>
-            <loc>https://alexbgurvi.ch/tutorials/social-meta-tags/</loc>
+            <loc>http://localhost:4000/tutorials/jupyter/</loc>
         </url>
   
         <url>
-            <loc>https://alexbgurvi.ch/tutorials/por-que-usar-svg/</loc>
+            <loc>http://localhost:4000/tutorials/fitting-a-line/</loc>
         </url>
   
         <url>
-            <loc>https://alexbgurvi.ch/tutorials/dica-rapida-1/</loc>
+            <loc>http://localhost:4000/tutorials/finite-difference/</loc>
+        </url>
+  
+        <url>
+            <loc>http://localhost:4000/tutorials/calculus-basics/</loc>
+        </url>
+  
+        <url>
+            <loc>http://localhost:4000/tutorials/personal-website/</loc>
+        </url>
+  
+        <url>
+            <loc>http://localhost:4000/tutorials/matrices-basics/</loc>
+        </url>
+  
+        <url>
+            <loc>http://localhost:4000/tutorials/matplotlib/</loc>
+        </url>
+  
+        <url>
+            <loc>http://localhost:4000/tutorials/numpy-basics/</loc>
+        </url>
+  
+        <url>
+            <loc>http://localhost:4000/tutorials/website/</loc>
+        </url>
+  
+        <url>
+            <loc>http://localhost:4000/tutorials/making-cv/</loc>
+        </url>
+  
+        <url>
+            <loc>http://localhost:4000/tutorials/conda/</loc>
+        </url>
+  
+        <url>
+            <loc>http://localhost:4000/tutorials/using-python/</loc>
+        </url>
+  
+        <url>
+            <loc>http://localhost:4000/tutorials/latex-basics/</loc>
+        </url>
+  
+        <url>
+            <loc>http://localhost:4000/tutorials/html-css/</loc>
+        </url>
+  
+        <url>
+            <loc>http://localhost:4000/tutorials/git-basics/</loc>
+        </url>
+  
+        <url>
+            <loc>http://localhost:4000/tutorials/using-homebrew/</loc>
+        </url>
+  
+        <url>
+            <loc>http://localhost:4000/tutorials/using-bash/</loc>
         </url>
   
 </urlset>

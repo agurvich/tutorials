@@ -1,51 +1,163 @@
 [
   
     {
-      "title"    : "How to Use",
-      "tags"     : "misc and jekyll",
-      "categories"     : "misc",
-      "url"      : "/tutorials/how-to-use/",
-      "date"     : "08 May 2016"
+      "title"    : "Sympy: symbolic math in Python",
+      "tags"     : "python, math, and numerical methods",
+      "categories"     : "python",
+      "url"      : "/tutorials/sympy/",
+      "date"     : "06 Jan 0001"
     } ,
   
     {
-      "title"    : "Welcome to Jekyll",
-      "tags"     : "jekyll",
-      "categories"     : "jekyll",
-      "url"      : "/tutorials/welcome-to-jekyll/",
-      "date"     : "08 May 2016"
+      "title"    : "Running Jupyter on a cluster",
+      "tags"     : "terminal and python",
+      "categories"     : "terminal",
+      "url"      : "/tutorials/jupyter-cluster/",
+      "date"     : "06 Jan 0001"
     } ,
   
     {
-      "title"    : "Analisando seu código JS com um linter",
-      "tags"     : "js, linter, and tutorial",
-      "categories"     : "js",
-      "url"      : "/tutorials/analisando-seu-codigo-js-com-linter/",
-      "date"     : "04 Dec 2015"
+      "title"    : "Eigen- what now?",
+      "tags"     : "math and physics",
+      "categories"     : "methods",
+      "url"      : "/tutorials/matrices-advanced/",
+      "date"     : "05 Jan 0001"
     } ,
   
     {
-      "title"    : "Social Meta Tags",
-      "tags"     : "social, seo, and tutorial",
-      "categories"     : "html",
-      "url"      : "/tutorials/social-meta-tags/",
-      "date"     : "09 Feb 2015"
+      "title"    : "Jupyter notebooks",
+      "tags"     : "terminal and python",
+      "categories"     : "terminal",
+      "url"      : "/tutorials/jupyter/",
+      "date"     : "04 Jan 0001"
     } ,
   
     {
-      "title"    : "#1 - Por que usar SVG?",
-      "tags"     : "svg, frontend, trend, and dicarapida",
-      "categories"     : "svg",
-      "url"      : "/tutorials/por-que-usar-svg/",
-      "date"     : "08 Jan 2015"
+      "title"    : "Fitting a line to data",
+      "tags"     : "math",
+      "categories"     : "methods",
+      "url"      : "/tutorials/fitting-a-line/",
+      "date"     : "04 Jan 0001"
     } ,
   
     {
-      "title"    : "Dica rápida #1",
-      "tags"     : "dicarapida",
-      "categories"     : "dev",
-      "url"      : "/tutorials/dica-rapida-1/",
-      "date"     : "07 Jan 2015"
+      "title"    : "Approximating a derivative",
+      "tags"     : "math and numerical methods",
+      "categories"     : "methods",
+      "url"      : "/tutorials/finite-difference/",
+      "date"     : "04 Jan 0001"
+    } ,
+  
+    {
+      "title"    : "A little bit of calculus never hurt anyone",
+      "tags"     : "math",
+      "categories"     : "methods",
+      "url"      : "/tutorials/calculus-basics/",
+      "date"     : "04 Jan 0001"
+    } ,
+  
+    {
+      "title"    : "Making a professional website",
+      "tags"     : "research and web",
+      "categories"     : "research",
+      "url"      : "/tutorials/personal-website/",
+      "date"     : "03 Jan 0001"
+    } ,
+  
+    {
+      "title"    : "Linear algebra is your friend",
+      "tags"     : "math",
+      "categories"     : "methods",
+      "url"      : "/tutorials/matrices-basics/",
+      "date"     : "03 Jan 0001"
+    } ,
+  
+    {
+      "title"    : "Matplotlib: a pixel-perfect plotting library",
+      "tags"     : "python and visualization",
+      "categories"     : "python",
+      "url"      : "/tutorials/matplotlib/",
+      "date"     : "03 Jan 0001"
+    } ,
+  
+    {
+      "title"    : "numpy: the numerical Python library",
+      "tags"     : "python and math",
+      "categories"     : "python",
+      "url"      : "/tutorials/numpy-basics/",
+      "date"     : "02 Jan 0001"
+    } ,
+  
+    {
+      "title"    : "Making a Github pages website",
+      "tags"     : "web and git",
+      "categories"     : "web",
+      "url"      : "/tutorials/website/",
+      "date"     : "02 Jan 0001"
+    } ,
+  
+    {
+      "title"    : "Making a CV",
+      "tags"     : "research",
+      "categories"     : "research",
+      "url"      : "/tutorials/making-cv/",
+      "date"     : "02 Jan 0001"
+    } ,
+  
+    {
+      "title"    : "(Ana)conda: Python&#39;s best friend",
+      "tags"     : "terminal and building software",
+      "categories"     : "terminal",
+      "url"      : "/tutorials/conda/",
+      "date"     : "02 Jan 0001"
+    } ,
+  
+    {
+      "title"    : "Running Python",
+      "tags"     : "python",
+      "categories"     : "python",
+      "url"      : "/tutorials/using-python/",
+      "date"     : "01 Jan 0001"
+    } ,
+  
+    {
+      "title"    : "Using LaTeX",
+      "tags"     : "research",
+      "categories"     : "research",
+      "url"      : "/tutorials/latex-basics/",
+      "date"     : "01 Jan 0001"
+    } ,
+  
+    {
+      "title"    : "HTML + CSS make the world (wide web) go round",
+      "tags"     : "web",
+      "categories"     : "web",
+      "url"      : "/tutorials/html-css/",
+      "date"     : "01 Jan 0001"
+    } ,
+  
+    {
+      "title"    : "Version control with git",
+      "tags"     : "terminal",
+      "categories"     : "terminal",
+      "url"      : "/tutorials/git-basics/",
+      "date"     : "01 Jan 0001"
+    } ,
+  
+    {
+      "title"    : "Building Software with Homebrew",
+      "tags"     : "terminal and building software",
+      "categories"     : "terminal",
+      "url"      : "/tutorials/using-homebrew/",
+      "date"     : "31 Dec 0000"
+    } ,
+  
+    {
+      "title"    : "Using bash",
+      "tags"     : "terminal",
+      "categories"     : "terminal",
+      "url"      : "/tutorials/using-bash/",
+      "date"     : "31 Dec 0000"
     } 
   
 ]

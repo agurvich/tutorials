@@ -1,0 +1,79 @@
+
+
+.post-terminal .title-category{
+	color: #7aab13;
+}
+.post-terminal .post-content h1,.post-terminal .post-content h2,.post-terminal .post-content h3,.post-terminal .post-content h4{
+	color: #7aab13;
+}
+.post-terminal .post-content a{
+	border-bottom: 2px dashed #7aab13;
+	color: #7aab13;
+}
+.post-terminal .post-content a:hover{
+	background-color: #7aab13;
+	color: #fff;
+}
+.post-terminal .post-content strong{
+	color: #7aab13;
+}
+.post-terminal .post-content p code,.post-terminal .post-content li code{
+	color: #7aab13;
+}
+.post-terminal .post-content blockquote{
+	border-left: .313rem solid #7aab13;
+}
+.post-terminal .header-post,.post-terminal .header-site{
+	background-color: #7aab13;
+}
+.post-terminal .header-post h1,.post-terminal .header-site h1{
+	text-shadow: 3px 3px #62890f;
+}
+.post-terminal .bar-header .logo a{
+	color: #7aab13;
+}
+.post-terminal .author .email,.post-terminal .author .github{
+	color: #7aab13;
+}
+.post-terminal .share a:hover svg{
+	fill: #7aab13;
+}
+@media only screen and (max-width:37.5rem){
+	.post-terminal body.search-overlay:after{
+		background-color: #7aab13;
+	}
+}
+.post-terminal .icon-menu{
+	fill: #7aab13;
+}
+.post-terminal .box-body h2{
+	color: #7aab13;
+}
+.post-terminal .box-body .tags a{
+	border: 1px solid #7aab13;
+	color: #7aab13;
+}
+.post-terminal .box-body .tags a:hover{
+	background: #7aab13;
+	color: #fff;
+}
+.post-terminal aside{
+	background-color: #7aab13;
+}
+.post-terminal aside nav li a:hover{
+	color: #7aab13;
+}
+.post-terminal .ribbon span{
+	background-color: #7aab13;
+}
+.post-terminal .ribbon span:before{
+	border-left: 3px solid #55780d;
+	border-top: 3px solid #55780d;
+}
+.post-terminal .ribbon span:after{
+	border-right: 3px solid #55780d;
+	border-top: 3px solid #55780d;
+}
+.post-terminal footer{
+	background-color: #7aab13;
+}

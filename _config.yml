@@ -1,5 +1,5 @@
 # Site settings
-title: Programming Tutorials
+title: Roadmap to Research
 description: this is a place where I've compiled my work to build on-boarding tutorials
 baseurl: "/tutorials" # the subpath of your site, e.g. /blog
 url: "https://alexbgurvi.ch" # the base hostname & protocol for your site e.g. http://alexbgurvi.ch
@@ -8,11 +8,12 @@ destination: docs
 safe: false
 
 # User settings
-username: happy
-user_description: Frick
-email: anon@anon.com
-#twitter_username: lorem_ipsum
-#github_username:  lorem_ipsum
+shorttitle: Roadmap
+username: Alex Gurvich
+user_description: star formation enthusiast and supercomputer heating expert
+email: alex.b.gurvich@gmail.com
+twitter_username: alexbgurvich
+github_username: agurvich
 #gplus_username:  lorem_ipsum
 #disqus_username: lorem_ipsum
 
