@@ -3,10 +3,10 @@ layout: default
 ---
 
 <main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
-    <h1> Choose a track below! </h1>
+    <h1 style="width:100%; text-align:center"> Choose a track below! </h1>
+    <hr style="width:75%">
     <div id="grid" class="row flex-grid" style="width:100%">
     {% assign sorted = site.posts | sort: 'date' %}
-
 
     <!-- loop through posts and compile a list of all the tracks -->
     {% capture all_tracks %}{% for post in site.posts %}{{post.tracks | join: ","}},{% endfor %}{% endcapture %}{% assign all_tracks = all_tracks | split: "," %}
@@ -18,7 +18,8 @@ layout: default
     {% endfor %}
     {% assign unique_tracks = unique_tracks | split: "," %}
         {% for unique_track in unique_tracks %}
-        <button type="button" class="collapsible">{{unique_track}}</button>
+        <button type="button" class="collapsible">{{unique_track}} 
+</button>
         <div id="grid" class="row flex-grid" style="max-height:0; overflow:hidden; width:0%">
         {% assign these_posts = sorted | where: "tracks", unique_track %}
         {% capture these_post_titles %}{% for foo in these_posts %}{{foo.title}}{% endfor %}{%endcapture %}
@@ -39,11 +40,22 @@ layout: default
 
             {% for post in these_posts %}
             <!-- because contains just doesn't work :eyeroll: -->
-            <!-- should use a generator to give each post the "deep" prereqs, i think that will work -->
             <article class="box-item post-{{post.main-class}}" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
                 <span class="ribbon">
                     <a href="{{site.url}}{{site.baseurl}}/categories/{{post.main-class}}"><span>{{post.main-class}}</span></a>
                 </span>
+
+                {% case post.main-class %}
+                {% when "terminal" %}
+                    <i class="fa-solid fa-terminal post-terminal"></i>
+                {% when "python" %}
+                    <i class="fa-brands fa-python post-python"></i>
+                {% when "research" %}
+                    <i class="fa-solid fa-book"></i>
+                {% when "web" %}
+                    <i class="fa-solid fa-globe"></i>
+                {% else %}
+                {% endcase %}
                 <div class="box-body">
                     <meta itemprop="datePublished" content="{{post.date | date_to_xmlschema }}">
                     <time itemprop="datePublished" datetime="{{ post.date }}" class="date">{{ post.date | date_to_string }}</time>

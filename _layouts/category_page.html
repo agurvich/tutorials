@@ -12,6 +12,17 @@ layout: default
             <span class="ribbon">
                 <a href="{{site.url}}{{site.baseurl}}/categories/{{page.this_category}}"><span>{{ page.this_category}}</span></a>
             </span>
+            {% case page.this_category %}
+            {% when "terminal" %}
+                <i class="fa-solid fa-terminal post-terminal"></i>
+            {% when "python" %}
+                <i class="fa-brands fa-python post-python"></i>
+            {% when "research" %}
+                <i class="fa-solid fa-book"></i>
+            {% when "web" %}
+                <i class="fa-solid fa-globe"></i>
+            {% else %}
+            {% endcase %}
             <div class="box-body">
                 <meta itemprop="datePublished" content="{{sub_page.date | date_to_xmlschema }}">
                 <time itemprop="datePublished" datetime="{{ sub_page.date }}" class="date">{{ sub_page.date | date_to_string }}</time>

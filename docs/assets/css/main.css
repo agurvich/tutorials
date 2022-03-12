@@ -1267,8 +1267,9 @@ footer p,footer a{
 	background-color: #eee;
 	color: #444;
 	cursor: pointer;
+	margin-top:5px;
 	padding: 18px;
-	width: 50%;
+	width: 48%;
 	border: none;
 	text-align: center;
 	vertical-align: text-top;
