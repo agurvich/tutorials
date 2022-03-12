@@ -15,6 +15,7 @@ twitter_text: 'Put your twitter description here.'
 introduction: 'Put your description here.'
 prereqs:
 - /using-python
+- /python-packages
 ---
 
 {% highlight python %}

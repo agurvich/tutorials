@@ -12,6 +12,8 @@ tags:
 - research
 twitter_text: 'Put your twitter description here.'
 introduction: 'Put your description here.'
+tracks:
+- Essential Skills
 ---
 
 * overleaf

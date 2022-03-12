@@ -17,6 +17,8 @@ prereqs:
 - /using-bash
 - /using-python
 - /matplotlib
+tracks:
+- 'Scientific Computing'
 ---
 
 * making a jupyter config

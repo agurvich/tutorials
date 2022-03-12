@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Version control with git"
-date: 0001-01-02 00:00:01
+title: "Intermediate git skills"
+date: 0001-01-05 00:00:01
 image: '/assets/img/'
-description: 'The basics of using git repos'
+description: 'Taking advantage of git to deal with conflict.'
 main-class: 'terminal'
 categories: 
 - terminal
@@ -14,30 +14,18 @@ tags:
 twitter_text: 'Put your twitter description here.'
 introduction: 'Put your description here.'
 prereqs:
-- /using-bash
-- /using-hombrew
+- /git-basics
 tracks:
-- Essential Skills
 - The zen of Git
 ---
 
 {% highlight bash %}
-git clone
+git branch
 {% endhighlight %}
 
 {% highlight bash %}
-git push
+git merge
 {% endhighlight %}
 
-{% highlight bash %}
-git pull
-{% endhighlight %}
-
-{% highlight bash %}
-git add
-{% endhighlight %}
-
-{% highlight bash %}
-git status
-{% endhighlight %}
+pull requests
 

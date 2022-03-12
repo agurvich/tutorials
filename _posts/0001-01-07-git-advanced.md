@@ -1,22 +1,28 @@
 ---
 layout: post
-title: "(Ana)conda: Python's best friend"
-date: 0001-01-03 00:00:01
+title: "Advanced git usage"
+date: 0001-01-07 00:00:01
 image: '/assets/img/'
-description: 'using conda to manage virtual environments'
+description: 'For when things have gotten really serious'
 main-class: 'terminal'
 categories: 
 - terminal
 color: '#B31917'
 tags:
+- git
 - terminal
-- building software
-- python
 twitter_text: 'Put your twitter description here.'
 introduction: 'Put your description here.'
+prereqs:
+- /git-intermediate
+tracks:
+- The zen of Git
 ---
 
+{% highlight bash %}
+git fetch upstream
+{% endhighlight %}
 
 {% highlight bash %}
-conda install
+git rebase
 {% endhighlight %}
