@@ -83,11 +83,23 @@
         </url>
   
         <url>
+            <loc>https://alexbgurvi.ch/tutorials/git-advanced/</loc>
+        </url>
+  
+        <url>
             <loc>https://alexbgurvi.ch/tutorials/matrices-advanced/</loc>
         </url>
   
         <url>
-            <loc>https://alexbgurvi.ch/tutorials/jupyter/</loc>
+            <loc>https://alexbgurvi.ch/tutorials/jupyter-notebooks/</loc>
+        </url>
+  
+        <url>
+            <loc>https://alexbgurvi.ch/tutorials/jekyll/</loc>
+        </url>
+  
+        <url>
+            <loc>https://alexbgurvi.ch/tutorials/git-intermediate/</loc>
         </url>
   
         <url>
@@ -123,15 +135,23 @@
         </url>
   
         <url>
+            <loc>https://alexbgurvi.ch/tutorials/python-packages/</loc>
+        </url>
+  
+        <url>
             <loc>https://alexbgurvi.ch/tutorials/making-cv/</loc>
         </url>
   
         <url>
-            <loc>https://alexbgurvi.ch/tutorials/conda/</loc>
+            <loc>https://alexbgurvi.ch/tutorials/using-python/</loc>
         </url>
   
         <url>
-            <loc>https://alexbgurvi.ch/tutorials/using-python/</loc>
+            <loc>https://alexbgurvi.ch/tutorials/create-environment/</loc>
+        </url>
+  
+        <url>
+            <loc>https://alexbgurvi.ch/tutorials/ssh/</loc>
         </url>
   
         <url>
@@ -144,6 +164,10 @@
   
         <url>
             <loc>https://alexbgurvi.ch/tutorials/git-basics/</loc>
+        </url>
+  
+        <url>
+            <loc>https://alexbgurvi.ch/tutorials/conda/</loc>
         </url>
   
         <url>

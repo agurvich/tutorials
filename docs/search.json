@@ -17,6 +17,14 @@
     } ,
   
     {
+      "title"    : "Advanced git usage",
+      "tags"     : "git and terminal",
+      "categories"     : "terminal",
+      "url"      : "/tutorials/git-advanced/",
+      "date"     : "06 Jan 0001"
+    } ,
+  
+    {
       "title"    : "Eigen- what now?",
       "tags"     : "math and physics",
       "categories"     : "methods",
@@ -28,7 +36,23 @@
       "title"    : "Jupyter notebooks",
       "tags"     : "terminal and python",
       "categories"     : "terminal",
-      "url"      : "/tutorials/jupyter/",
+      "url"      : "/tutorials/jupyter-notebooks/",
+      "date"     : "04 Jan 0001"
+    } ,
+  
+    {
+      "title"    : "using Jekyll to create a monster",
+      "tags"     : "web",
+      "categories"     : "web",
+      "url"      : "/tutorials/jekyll/",
+      "date"     : "04 Jan 0001"
+    } ,
+  
+    {
+      "title"    : "Intermediate git skills",
+      "tags"     : "git and terminal",
+      "categories"     : "terminal",
+      "url"      : "/tutorials/git-intermediate/",
       "date"     : "04 Jan 0001"
     } ,
   
@@ -97,6 +121,14 @@
     } ,
   
     {
+      "title"    : "Installing Python packages",
+      "tags"     : "python and terminal",
+      "categories"     : "terminal",
+      "url"      : "/tutorials/python-packages/",
+      "date"     : "02 Jan 0001"
+    } ,
+  
+    {
       "title"    : "Making a CV",
       "tags"     : "research",
       "categories"     : "research",
@@ -105,18 +137,26 @@
     } ,
   
     {
-      "title"    : "(Ana)conda: Python&#39;s best friend",
-      "tags"     : "terminal, building software, and python",
-      "categories"     : "terminal",
-      "url"      : "/tutorials/conda/",
-      "date"     : "02 Jan 0001"
-    } ,
-  
-    {
       "title"    : "Running Python",
       "tags"     : "python",
       "categories"     : "python",
       "url"      : "/tutorials/using-python/",
+      "date"     : "01 Jan 0001"
+    } ,
+  
+    {
+      "title"    : "Creating a working software environment",
+      "tags"     : "research",
+      "categories"     : "research",
+      "url"      : "/tutorials/create-environment/",
+      "date"     : "01 Jan 0001"
+    } ,
+  
+    {
+      "title"    : "Connecting by ssh",
+      "tags"     : "terminal",
+      "categories"     : "terminal",
+      "url"      : "/tutorials/ssh/",
       "date"     : "01 Jan 0001"
     } ,
   
@@ -141,6 +181,14 @@
       "tags"     : "git and terminal",
       "categories"     : "terminal",
       "url"      : "/tutorials/git-basics/",
+      "date"     : "01 Jan 0001"
+    } ,
+  
+    {
+      "title"    : "(Ana)conda: Python&#39;s best friend",
+      "tags"     : "terminal, building software, and python",
+      "categories"     : "terminal",
+      "url"      : "/tutorials/conda/",
       "date"     : "01 Jan 0001"
     } ,
   
