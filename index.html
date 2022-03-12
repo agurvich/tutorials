@@ -18,9 +18,8 @@ layout: default
     {% endfor %}
     {% assign unique_tracks = unique_tracks | split: "," %}
         {% for unique_track in unique_tracks %}
-        <div style="width:100%">
         <button type="button" class="collapsible">{{unique_track}}</button>
-        <div id="grid" class="row flex-grid" style="max-height:0; overflow:hidden">
+        <div id="grid" class="row flex-grid" style="max-height:0; overflow:hidden; width:0%">
         {% assign these_posts = sorted | where: "tracks", unique_track %}
         {% capture these_post_titles %}{% for foo in these_posts %}{{foo.title}}{% endfor %}{%endcapture %}
             {% for post in these_posts %}
@@ -67,7 +66,6 @@ layout: default
             </article>
             {% endfor %} 
         </div>
-        </div>
     {% endfor %} 
 </main>
 
@@ -83,9 +81,11 @@ layout: default
         if (content.style.maxHeight){
           content.style.maxHeight = null;
           content.style.padding = 10+"px";
+          content.style.width = 100+"%";
         } else {
           content.style.maxHeight = 0+"px";
           content.style.padding = null;
+          content.style.width = 0+"%";
         }
       });
     }

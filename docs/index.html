@@ -124,9 +124,8 @@
     
     
         
-        <div style="width:100%">
         <button type="button" class="collapsible">Using an HPC Cluster</button>
-        <div id="grid" class="row flex-grid" style="max-height:0; overflow:hidden">
+        <div id="grid" class="row flex-grid" style="max-height:0; overflow:hidden; width:0%">
         
         
             
@@ -247,11 +246,9 @@
             </article>
              
         </div>
-        </div>
     
-        <div style="width:100%">
         <button type="button" class="collapsible">The zen of Git</button>
-        <div id="grid" class="row flex-grid" style="max-height:0; overflow:hidden">
+        <div id="grid" class="row flex-grid" style="max-height:0; overflow:hidden; width:0%">
         
         
             
@@ -374,11 +371,9 @@
             </article>
              
         </div>
-        </div>
     
-        <div style="width:100%">
         <button type="button" class="collapsible">Scientific Computing</button>
-        <div id="grid" class="row flex-grid" style="max-height:0; overflow:hidden">
+        <div id="grid" class="row flex-grid" style="max-height:0; overflow:hidden; width:0%">
         
         
             
@@ -615,11 +610,9 @@
             </article>
              
         </div>
-        </div>
     
-        <div style="width:100%">
         <button type="button" class="collapsible">Making a website</button>
-        <div id="grid" class="row flex-grid" style="max-height:0; overflow:hidden">
+        <div id="grid" class="row flex-grid" style="max-height:0; overflow:hidden; width:0%">
         
         
             
@@ -740,11 +733,9 @@
             </article>
              
         </div>
-        </div>
     
-        <div style="width:100%">
         <button type="button" class="collapsible">Essential Skills</button>
-        <div id="grid" class="row flex-grid" style="max-height:0; overflow:hidden">
+        <div id="grid" class="row flex-grid" style="max-height:0; overflow:hidden; width:0%">
         
         
             
@@ -894,7 +885,6 @@
             </article>
              
         </div>
-        </div>
      
 </main>
 
@@ -910,9 +900,11 @@
         if (content.style.maxHeight){
           content.style.maxHeight = null;
           content.style.padding = 10+"px";
+          content.style.width = 100+"%";
         } else {
           content.style.maxHeight = 0+"px";
           content.style.padding = null;
+          content.style.width = 0+"%";
         }
       });
     }
