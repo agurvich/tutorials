@@ -4,14 +4,42 @@ layout: default
 
 <main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
     <h1> Choose a track below! </h1>
+    <div id="grid" class="row flex-grid" style="width:100%">
     {% assign sorted = site.posts | sort: 'date' %}
-    {% for this_tag in site.tags %}
-        <button type="button" class="collapsible">{{this_tag[0]}}</button>
+
+
+    <!-- loop through posts and compile a list of all the tracks -->
+    {% capture all_tracks %}{% for post in site.posts %}{{post.tracks | join: ","}},{% endfor %}{% endcapture %}{% assign all_tracks = all_tracks | split: "," %}
+    {% assign unique_tracks = array[0] %}
+    {% for item in all_tracks %}
+        {% unless unique_tracks contains item or item == "" or item == ' '%}
+            {% capture unique_tracks %}{{ unique_tracks }}{{ item }},{% endcapture %}
+        {% endunless %}
+    {% endfor %}
+    {% assign unique_tracks = unique_tracks | split: "," %}
+        {% for unique_track in unique_tracks %}
+        <div style="width:100%">
+        <button type="button" class="collapsible">{{unique_track}}</button>
         <div id="grid" class="row flex-grid" style="max-height:0; overflow:hidden">
-            {% for post in sorted %}
+        {% assign these_posts = sorted | where: "tracks", unique_track %}
+        {% capture these_post_titles %}{% for foo in these_posts %}{{foo.title}}{% endfor %}{%endcapture %}
+            {% for post in these_posts %}
+                {% for prereq in post.prereqs %}
+                {% for sub_post in sorted %}
+                    {% if sub_post.url contains prereq %}
+                        {% unless  these_post_titles contains sub_post.title %}
+                            {% assign these_posts = these_posts | push: sub_post %}
+                            {% assign these_post_titles = these_post_titles | append: sub_post.title %}
+                        {% endunless %}
+                    {% endif %}
+                {% endfor %}
+                {% endfor %}
+            {% endfor %}
+            
+            {% assign these_posts = these_posts | sort: 'date' %}
+
+            {% for post in these_posts %}
             <!-- because contains just doesn't work :eyeroll: -->
-            {%assign tagged = false %}{% for post_tag in post.tags %}{% if post_tag == this_tag[0] %}{%assign tagged = true %}{% endif %}{% endfor %}
-            {% if tagged %}
             <!-- should use a generator to give each post the "deep" prereqs, i think that will work -->
             <article class="box-item post-{{post.main-class}}" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
                 <span class="ribbon">
@@ -37,8 +65,8 @@ layout: default
                     {% endif %}
                 </div>
             </article>
-            {% endif %}
             {% endfor %} 
+        </div>
         </div>
     {% endfor %} 
 </main>

@@ -19,6 +19,9 @@
                 {% capture this_url %}{% for post in site.posts %}{% if prereq == post.id %}{{post.url}}{% endif %}{% endfor %}{% endcapture %}
                 <a href="{{ this_url | prepend: site.baseurl | prepend: site.url }}"> {{ prereq }} </a>
                 {% endfor %}
+                <br>
+                Tracks:
+                {{page.tracks | join:", "}}
                 {{ content }}
             </article>
 
