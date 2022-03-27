@@ -1,0 +1,11 @@
+{% case post.main-class %}
+{% when "terminal" %}
+    '<i class="fa-solid fa-terminal post-terminal"></i>'
+{% when "python" %}
+    '<i class="fa-brands fa-python post-python"></i>'
+{% when "research" %}
+    '<i class="fa-solid fa-book post-research"></i>'
+{% when "web" %}
+    '<i class="fa-solid fa-globe post-web"></i>'
+{% else %}
+{% endcase %}

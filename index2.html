@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+<main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+<style>
+    #chart{
+        width:90%;
+        outline:2px dotted black;
+        margin-left:auto;
+        margin-right:auto;
+        height:600px;
+    }
+    .tree{
+        width:100%;
+        height:20%;
+        outline:2px solid green;
+    }
+    .tree_icon{
+        position:relative;
+        color:black;
+        vertical-align:middle;
+        text-align: center;
+        height:25px;
+        width:25px;
+        margin:0px;
+        padding:0px;
+    }
+    circle:hover{
+        fill:yellow
+    }
+    text{
+        color:white
+    }
+</style>
+
+<h1 style="width:100%; text-align:center"> Choose a track below! </h1>
+<hr style="width:75%">
+<h1>D3 Demo</h1>
+
+<div id='chart' >
+
+</div>
+
+<!-- import d3 -->
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<!-- run d3 example -->
+<script src="{{site.url}}{{site.baseurl}}/assets/js/tree_maker.js"></script>

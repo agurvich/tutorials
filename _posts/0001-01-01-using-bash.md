@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Using bash"
-date: 0001-01-01 00:00:01
+date: 0001-01-01 12:00:01
 image: '/assets/img/'
 description: 'we do it for the $'
 main-class: 'terminal'

@@ -1,0 +1,15 @@
+{% assign these_posts = sorted | where: "tracks", unique_track %}
+{% capture these_post_titles %}{% for foo in these_posts %}{{foo.title}}{% endfor %}{%endcapture %}
+{% for post in these_posts %}
+    {% for prereq in post.prereqs %}
+    {% for sub_post in sorted %}
+        {% if sub_post.url contains prereq %}
+            {% unless  these_post_titles contains sub_post.title %}
+                {% assign these_posts = these_posts | push: sub_post %}
+                {% assign these_post_titles = these_post_titles | append: sub_post.title %}
+            {% endunless %}
+        {% endif %}
+    {% endfor %}
+    {% endfor %}
+{% endfor %}
+{% assign these_posts = these_posts | sort: 'date' %}

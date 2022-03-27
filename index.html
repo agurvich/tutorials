@@ -6,17 +6,8 @@ layout: default
     <h1 style="width:100%; text-align:center"> Choose a track below! </h1>
     <hr style="width:75%">
     <div id="grid" class="row flex-grid" style="width:100%">
-    {% assign sorted = site.posts | sort: 'date' %}
 
-    <!-- loop through posts and compile a list of all the tracks -->
-    {% capture all_tracks %}{% for post in site.posts %}{{post.tracks | join: ","}},{% endfor %}{% endcapture %}{% assign all_tracks = all_tracks | split: "," %}
-    {% assign unique_tracks = array[0] %}
-    {% for item in all_tracks %}
-        {% unless unique_tracks contains item or item == "" or item == ' '%}
-            {% capture unique_tracks %}{{ unique_tracks }}{{ item }},{% endcapture %}
-        {% endunless %}
-    {% endfor %}
-    {% assign unique_tracks = unique_tracks | split: "," %}
+        {% include post_data.html %}
         {% for unique_track in unique_tracks %}
         <button type="button" class="collapsible">{{unique_track}} 
 </button>

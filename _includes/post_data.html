@@ -1,0 +1,11 @@
+{% assign sorted = site.posts | sort: 'date' %}
+
+<!-- loop through posts and compile a list of all the tracks -->
+{% capture all_tracks %}{% for post in site.posts %}{{post.tracks | join: ","}},{% endfor %}{% endcapture %}{% assign all_tracks = all_tracks | split: "," %}
+{% assign unique_tracks = array[0] %}
+{% for item in all_tracks %}
+    {% unless unique_tracks contains item or item == "" or item == ' '%}
+        {% capture unique_tracks %}{{ unique_tracks }}{{ item }},{% endcapture %}
+    {% endunless %}
+{% endfor %}
+{% assign unique_tracks = unique_tracks | split: "," %}

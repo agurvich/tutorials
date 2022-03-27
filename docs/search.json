@@ -137,6 +137,14 @@
     } ,
   
     {
+      "title"    : "(Ana)conda: Python&#39;s best friend",
+      "tags"     : "terminal, building software, and python",
+      "categories"     : "terminal",
+      "url"      : "/tutorials/conda/",
+      "date"     : "02 Jan 0001"
+    } ,
+  
+    {
       "title"    : "Running Python",
       "tags"     : "python",
       "categories"     : "python",
@@ -185,10 +193,10 @@
     } ,
   
     {
-      "title"    : "(Ana)conda: Python&#39;s best friend",
-      "tags"     : "terminal, building software, and python",
+      "title"    : "Using bash",
+      "tags"     : "terminal",
       "categories"     : "terminal",
-      "url"      : "/tutorials/conda/",
+      "url"      : "/tutorials/using-bash/",
       "date"     : "01 Jan 0001"
     } ,
   
@@ -197,14 +205,6 @@
       "tags"     : "terminal and building software",
       "categories"     : "terminal",
       "url"      : "/tutorials/using-homebrew/",
-      "date"     : "31 Dec 0000"
-    } ,
-  
-    {
-      "title"    : "Using bash",
-      "tags"     : "terminal",
-      "categories"     : "terminal",
-      "url"      : "/tutorials/using-bash/",
       "date"     : "31 Dec 0000"
     } 
   

@@ -38,6 +38,10 @@
         </url>
     
         <url>
+            <loc>https://alexbgurvi.ch/tutorials/index2/</loc>
+        </url>
+    
+        <url>
             <loc>https://alexbgurvi.ch/tutorials/search.json</loc>
         </url>
     
@@ -51,6 +55,10 @@
     
         <url>
             <loc>https://alexbgurvi.ch/tutorials/tags/index.html</loc>
+        </url>
+    
+        <url>
+            <loc>https://alexbgurvi.ch/tutorials/assets/js/tree_maker.js</loc>
         </url>
     
         <url>
@@ -143,6 +151,10 @@
         </url>
   
         <url>
+            <loc>https://alexbgurvi.ch/tutorials/conda/</loc>
+        </url>
+  
+        <url>
             <loc>https://alexbgurvi.ch/tutorials/using-python/</loc>
         </url>
   
@@ -167,15 +179,11 @@
         </url>
   
         <url>
-            <loc>https://alexbgurvi.ch/tutorials/conda/</loc>
+            <loc>https://alexbgurvi.ch/tutorials/using-bash/</loc>
         </url>
   
         <url>
             <loc>https://alexbgurvi.ch/tutorials/using-homebrew/</loc>
-        </url>
-  
-        <url>
-            <loc>https://alexbgurvi.ch/tutorials/using-bash/</loc>
         </url>
   
 </urlset>
