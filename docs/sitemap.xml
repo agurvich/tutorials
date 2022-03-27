@@ -42,6 +42,10 @@
         </url>
     
         <url>
+            <loc>https://alexbgurvi.ch/tutorials/assets/js/liquid_utils.js</loc>
+        </url>
+    
+        <url>
             <loc>https://alexbgurvi.ch/tutorials/search.json</loc>
         </url>
     
@@ -55,10 +59,6 @@
     
         <url>
             <loc>https://alexbgurvi.ch/tutorials/tags/index.html</loc>
-        </url>
-    
-        <url>
-            <loc>https://alexbgurvi.ch/tutorials/assets/js/tree_maker.js</loc>
         </url>
     
         <url>

@@ -1,48 +1,62 @@
-var base_chart = d3.select('#chart')
 
 function make_tree(){
 
-    var tree;
-    var row_i;
-    var xaxis,yaxis;
-    var xscale,yscale;
+    tree_datas = liquid_make_data();
 
-    var ys,maxy;
-    var old_level,level;
-    var xs;
-    var i,xi;
+    var base_chart = d3.select('#chart')
 
-    data = liquid_make_data();
-    console.log(data)
     tree = base_chart
+        .selectAll('div')
+        .data(tree_datas)
+        .enter()
         .append('div')
         .classed('tree',true)
+        .style('height',
+            function (track_struct){
+                return 25*(track_struct.maxy+1)+'px'})
+
+    icons = tree.selectChildren('div')
+        .data(function(track_struct){
+            return track_struct.data;})
+        .enter()
+        .append('div')
+        .style('left',function(d){
+            if (d.nposts_share_level != 1){
+                xscale = d3.scaleLinear().domain([0,d.nposts_share_level-1]).range([10,90])
+                 loc = xscale(d.xindex)+"%";}
+            else loc = "50%";
+            return loc})
+        .style('top',function(d){ 
+            var maxy = this.parentElement.__data__.maxy;
+            yscale = d3.scaleLinear().domain([1,maxy]).range([0,25*(maxy)])
+            var loc = yscale(d.level)+'px'
+            return loc})
+        .classed('tree_icon',true)
+        .append('p')
+        .html(function (struct,i){
+            all_html = ""
+            all_html += struct.html_icon;
+            return all_html})
+        .style('display','table-cell')
+        .style('width','inherit')
+        .style('height','inherit')
+        .style('vertical-align','middle')
+        .style('text-align','middle')
+        .style('transform',function (d){
+            return 'translateY('+(-25*d.index)+'px)'})
+
+    console.log(icons)
     
             
+    /*
     maxy = Math.max(...ys);
     yscale = d3.scaleLinear().domain([1,maxy]).range([0,25*(maxy)])
+    
     //xaxis = d3.axisBottom(xscale)
     //yaxis = d3.axisLeft(yscale)
-    tree.style('height',25*(maxy+1)+'px')
 
-    i=0;
-    xi=0;
-    old_level=1;
     // this is going to be janky
-    xmaxs = ys.map(function (value){
-        return ys.filter(function (sub_value){
-            return sub_value == value;
-        }).length})
 
-    //foo = tree.append('div')
-        //.style('width','inherit')
-    foo = tree
-        if (ys[i] != old_level){
-            xi = 0;
-            old_level=ys[i];
-            //foo = tree.append('div').style('width','inherit')
-        }
-        xscale = d3.scaleLinear().domain([0,xmaxs[i]-1]).range([10,90])
         x = xmaxs[i] == 1 ? "50" : xscale(xi);
         //foo.append('circle')
             //.attr('cx', x+'%')
@@ -64,6 +78,7 @@ function make_tree(){
             .style('text-align','middle')
         i+=1;
         xi+=1;
+        */
 }
 
 /*

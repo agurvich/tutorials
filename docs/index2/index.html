@@ -114,7 +114,11 @@
 </a>
             <section class="content">
                 less than 1 minute
-                <main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+                <!-- 
+https://observablehq.com/@nitaku/tangled-tree-visualization-ii
+https://www.tutorialsteacher.com/d3js/create-bar-chart-using-d3js
+-->
+<main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
 <style>
     #chart{
         width:90%;
@@ -127,6 +131,7 @@
         width:100%;
         height:20%;
         outline:2px solid green;
+        overflow:hidden;
     }
     .tree_icon{
         position:relative;
@@ -157,7 +162,12 @@
 <!-- import d3 -->
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <!-- run d3 example -->
+<script src="https://alexbgurvi.ch/tutorials/assets/js/liquid_utils.js"></script>
 <script src="https://alexbgurvi.ch/tutorials/assets/js/tree_maker.js"></script>
+<script>
+    make_tree();
+</script>
+
             </section>
         <footer>
     <p>Made with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and <span class="love">❤</span> by <a href="http://alexbgurvi.ch">Alex Gurvich</a></p>
