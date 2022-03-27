@@ -1,7 +1,10 @@
 ---
 layout: default
 ---
-
+<!-- 
+https://observablehq.com/@nitaku/tangled-tree-visualization-ii
+https://www.tutorialsteacher.com/d3js/create-bar-chart-using-d3js
+-->
 <main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
 <style>
     #chart{
@@ -45,4 +48,8 @@ layout: default
 <!-- import d3 -->
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <!-- run d3 example -->
+<script src="{{site.url}}{{site.baseurl}}/assets/js/liquid_utils.js"></script>
 <script src="{{site.url}}{{site.baseurl}}/assets/js/tree_maker.js"></script>
+<script>
+    make_tree();
+</script>

@@ -1,29 +1,24 @@
----
----
-
-{% include post_data.html %}
-
-//select chart div
 var base_chart = d3.select('#chart')
 
-var tree;
-var row_i;
-var xaxis,yaxis;
-var xscale,yscale;
+function make_tree(){
 
-var ys,maxy;
-var old_level,level;
-var xs;
-var i,xi;
+    var tree;
+    var row_i;
+    var xaxis,yaxis;
+    var xscale,yscale;
 
-{% for unique_track in unique_tracks %}
-    {% include posts_plus_prereqs.html sorted=sorted unique_track=unique_track %}
+    var ys,maxy;
+    var old_level,level;
+    var xs;
+    var i,xi;
+
+    data = liquid_make_data();
+    console.log(data)
     tree = base_chart
         .append('div')
         .classed('tree',true)
     
             
-    ys = [{% for post in these_posts %}{{post.date | date: "%d"}},{% endfor %}]
     maxy = Math.max(...ys);
     yscale = d3.scaleLinear().domain([1,maxy]).range([0,25*(maxy)])
     //xaxis = d3.axisBottom(xscale)
@@ -42,7 +37,6 @@ var i,xi;
     //foo = tree.append('div')
         //.style('width','inherit')
     foo = tree
-    {% for post in these_posts %}
         if (ys[i] != old_level){
             xi = 0;
             old_level=ys[i];
@@ -62,8 +56,7 @@ var i,xi;
                 'transform',
                 'translateY('+(-25*i)+'px)')
             .append('p')
-            //.html(ys[i])
-            .html({% include post_icon.html post=post %})
+            .html(ys[i])
             .style('display','table-cell')
             .style('width','inherit')
             .style('height','inherit')
@@ -71,7 +64,22 @@ var i,xi;
             .style('text-align','middle')
         i+=1;
         xi+=1;
-    {% endfor %}
-{% endfor %}
+}
+
 /*
+
+.on("mouseover", function(d) {		
+            div.transition()		
+                .duration(200)		
+                .style("opacity", .9);		
+            div	.html(formatTime(d.date) + "<br/>"  + d.close)	
+                .style("left", (d3.event.pageX) + "px")		
+                .style("top", (d3.event.pageY - 28) + "px");	
+            })					
+        .on("mouseout", function(d) {		
+            div.transition()		
+                .duration(500)		
+                .style("opacity", 0);	
+        });
+
 */
